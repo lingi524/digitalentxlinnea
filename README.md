@@ -1,4 +1,4 @@
-<h2>Hej Digitalent</h2> <br>
+<h2>Hej Digitalent!</h2> <br>
 Rekryteringshjälpen är en smidig hemsida för den rekryterare som snabbt vill få en överblick över de kandidater som är i ropet just nu.
 
 <h1>🏁 Goals:</h1>
