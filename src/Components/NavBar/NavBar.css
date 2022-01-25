@@ -1,0 +1,47 @@
+.NavBarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.NavBarBackground {
+  background-color: white;
+  border-bottom: 2px solid black;
+}
+
+.NavButtonsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.Form {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 20%;
+  margin: auto;
+  background-color: blue;
+  width: 500px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+  /* For tablets: */
+}
+
+@media only screen and (min-width: 1000px) {
+  /* For desktop: */
+  .NavButtonsContainer {
+    flex-direction: row;
+  }
+}

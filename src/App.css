@@ -1,5 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
-  text-align: center;
   background-color: antiquewhite;
-  height: 100vh;
+  position: relative;
+}
+
+.container {
+  max-width: 1236px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+}
+
+h1 {
+  color: black;
+}
+h2 {
+  color: black;
+}
+h3 {
+  color: black;
 }
