@@ -19,5 +19,5 @@ Figma<br>
 Different npm-packages <br>
 
 <h1>🏗️ Improvements</h1>
-Om jag haft mer tid hade jag velat göra den typesafe genom att använda Typescript<br>
+Använda ett CSS framework<br>
 Lära mig mer om säkerhetstänk när man jobbar med riktig data<br>
