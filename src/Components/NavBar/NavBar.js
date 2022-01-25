@@ -4,7 +4,7 @@ import Search from "./Search";
 import './NavBar.css';
 import '../../App.css';
 
-function NavBar() {
+function NavBar({candidateInfo, setCandidateInfo}) {
 
     return (
         <div className="NavBarBackground">
@@ -12,7 +12,7 @@ function NavBar() {
                 <p>Rekrytering</p>
                 <div className="NavButtonsContainer">
                     <Search />
-                    <AddNewButton />
+                    <AddNewButton candidateInfo={candidateInfo} setCandidateInfo={setCandidateInfo}/>
                 </div>
             </div>
         </div>
