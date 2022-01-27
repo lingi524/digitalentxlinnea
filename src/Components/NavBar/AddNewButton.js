@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import Form from "./Form";
 
-function AddNew({candidateInfo, setCandidateInfo}) {
+function AddNew({candidates, setCandidates}) {
 
     const [showForm, setShowForm] = useState(false);
 
@@ -18,7 +18,7 @@ function AddNew({candidateInfo, setCandidateInfo}) {
             <button onClick={showInput}>
                 Lägg till kandidat
             </button>
-            {showForm ? <Form toggle={toggle} candidateInfo={candidateInfo} setCandidateInfo={setCandidateInfo}/> : ''}
+            {showForm ? <Form toggle={toggle} candidates={candidates} setCandidates={setCandidates} showForm={showForm} setShowForm={setShowForm}/> : ''}
         </div>
     )
 }

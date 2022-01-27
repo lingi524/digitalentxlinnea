@@ -6,14 +6,14 @@ import NavBar from './Components/NavBar/NavBar';
 
 function App() {
 
-  const [candidateInfo, setCandidateInfo ] = useLocalStorage('candidateInfo', [
+  const [candidates, setCandidates ] = useLocalStorage('candidates', [
     {
       id: 0,
       name: 'Lisa Larsson',
       age: 25,
       email: 'lisa.larsson@gmail.com',
       adress: 'Adress adress adress',
-      partOfProcess: 'Kontaktad'
+      process: 'Kontaktad'
   },
   {
     id: 1,
@@ -21,16 +21,17 @@ function App() {
     age: 85,
     email: 'lisa.svenson@gmail.com',
     adress: 'Adress adress adress',
-    partOfProcess: 'Intervju'
+    process: 'Intervju'
   }
 ]);
+
 
   // const [inputName, setInputName] = useState("");
 
   return (
     <div className="App">
-      <NavBar candidateInfo={candidateInfo} setCandidateInfo={setCandidateInfo}/>
-      <Candidates candidateInfo={candidateInfo} setCandidateInfo={setCandidateInfo}/>
+      <NavBar candidates={candidates} setCandidates={setCandidates}/>
+      <Candidates candidates={candidates} setCandidates={setCandidates}/>
     </div>
   );
 }
