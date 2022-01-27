@@ -17,9 +17,9 @@ function App() {
   },
   {
     id: 1,
-    name: 'Lisa Svensson',
+    name: 'Lisa Nilsson',
     age: 85,
-    email: 'lisa.svenson@gmail.com',
+    email: 'lisa.nilsson@gmail.com',
     adress: 'Adress adress adress',
     process: 'Intervju'
   }
