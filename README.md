@@ -16,7 +16,7 @@ Det ska vara det!
  
 <h2>📕 Learnings:</h2>
 Hur formulär fungerar i React<br>
-Hur formulär localstorage i React<br>
+Hur localstorage fungerar i React<br>
 Custom React Hooks<br>
 Jobba mot en tight deadline<br>
 
