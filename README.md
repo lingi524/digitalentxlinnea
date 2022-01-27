@@ -9,22 +9,24 @@ För att starta den lokala servern, kör npm run<br>
 Det ska vara det!
 
 <h2>🏁 Goals:</h2>
-Skapa en rekryteringshemsida med överblick över kandidaterna<br>
-Skapa en ungdomlig och lättöverskådelig design<br>
-Skapa en fungerande sökfunktion (a first for me!)<br>
-Imponera på stjärnorna på Digitalent! 🌟
+✅ Skapa en rekryteringshemsida med överblick över kandidaterna<br>
+✅ Skapa en ungdomlig och lättöverskådelig design<br>
+❌ Skapa en fungerande sökfunktion (a first for me!)<br>
+❓ Imponera på stjärnorna på Digitalent! 🌟
  
 <h2>📕 Learnings:</h2>
-Ännu fler strängar på min React-lyra<br>
-(Förhoppningsvis) Hur man skapar en sökfunktion<br>
+Hur formulär fungerar i React<br>
+Hur formulär localstorage i React<br>
+Custom React Hooks<br>
 Jobba mot en tight deadline<br>
 
 <h2>💻 Tech stack</h2>
 React<br>
 CSS<br>
 Figma<br>
-Different npm-packages <br>
 
 <h2>🏗️ Improvements</h2>
 Använda ett CSS framework<br>
+Implementera redigerarr- och sökfunktion<br>
+Snygga till koden och strukturen<br>
 Lära mig mer om säkerhetstänk när man jobbar med riktig data<br>
