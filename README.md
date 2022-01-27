@@ -5,7 +5,7 @@ Rekryteringshjälpen är en smidig hemsida för den rekryterare som snabbt vill 
 Detta är en sida skapad med create-react-app <br>
 Klona repot och gå in i det<br>
 Installera node-modulerna med hjälp av npm install <br>
-För att starta den lokala servern, kör npm run<br>
+För att starta den lokala servern, kör npm start<br>
 Det ska vara det!
 
 <h2>🏁 Goals:</h2>
