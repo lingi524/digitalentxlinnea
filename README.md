@@ -23,6 +23,8 @@ Jobba mot en tight deadline<br>
 <h2>💻 Tech stack</h2>
 React<br>
 CSS<br>
+localstorage<br>
+Html<br>
 <a href="https://www.figma.com/file/5y6SZhm6UVlCIosaoHZ8Tf/Digitalent?node-id=0%3A1">Figma</a><br>
 
 <h2>🏗️ Improvements</h2>
