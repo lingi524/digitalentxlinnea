@@ -6,6 +6,7 @@ function Candidates({candidates, setCandidates}) {
 
     return (
         <div className="MainReadContent">
+            <h1>Se alla kandidater</h1>
             <div className="Candidates container">
                 {candidates.map((candidate)=> (
                     <CandidateCard key={candidate.email}

@@ -14,8 +14,8 @@ function AddNew({candidates, setCandidates}) {
       }
 
     return (
-        <div className="AddNew">
-            <button onClick={showInput}>
+        <div>
+            <button onClick={showInput} className="AddNew">
                 Lägg till kandidat
             </button>
             {showForm ? <Form toggle={toggle} candidates={candidates} setCandidates={setCandidates} showForm={showForm} setShowForm={setShowForm}/> : ''}

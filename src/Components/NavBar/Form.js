@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 // import useLocalStorage from "../../Hooks/useLocalStorage";
 import './NavBar.css';
+import '../../App.css';
 
 
 function Form({toggle, setCandidates, candidates}) {

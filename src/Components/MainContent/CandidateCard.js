@@ -1,5 +1,7 @@
-import React, {useEffect} from "react";
+import React from "react";
 import './Candidates.css';
+import '../../App.css';
+
 
 
 function CandidateCard(props) {
