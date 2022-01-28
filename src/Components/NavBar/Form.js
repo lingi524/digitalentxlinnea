@@ -22,7 +22,7 @@ function Form({toggle, setCandidates, candidates}) {
     return (
         <div className="popupBox">
             <form className="box" onSubmit={e=>handleFormSubmit(e)}>
-            <button onClick={toggle}>X</button>
+            <button onClick={toggle} className="CloseForm">X</button>
                 <div className="popupContainer">
                     <label>Namn</label>
                     <input onChange={e => setName(e.target.value)} type="text" name="name" id="textbox_name" value={name}></input>

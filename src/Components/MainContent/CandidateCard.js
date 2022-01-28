@@ -15,14 +15,14 @@ function CandidateCard(props) {
     return (
         <div className="CandidateCard">
             <div>
-                <button onClick={() => RemoveCandidate(props.candidate.id)}>X</button>
+                <button onClick={() => RemoveCandidate(props.candidate.id)} className="removeCandidate"> </button>
             </div>
-            <div>
+            <div className="CandidateInfo">
                 <div className="NameAge">
-                    <h3>{props.candidate.name}</h3>
-                    <p>{props.candidate.age} år</p> 
+                    <h2>{props.candidate.name}, </h2>
+                    <p className="Age">{props.candidate.age} år</p> 
                 </div>
-                <br></br>
+                
                 <a href={"mailto:" + props.candidate.email}>{props.candidate.email}</a>
                 <div>
                     <p>{props.candidate.adress}</p>

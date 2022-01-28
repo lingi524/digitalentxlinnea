@@ -3,6 +3,7 @@ import useLocalStorage from './Hooks/useLocalStorage';
 import './App.css';
 import Candidates from './Components/MainContent/Candidates';
 import NavBar from './Components/NavBar/NavBar';
+import Footer from './Components/Footer/Footer';
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
     <div className="App">
       <NavBar candidates={candidates} setCandidates={setCandidates}/>
       <Candidates candidates={candidates} setCandidates={setCandidates}/>
+      <Footer />
     </div>
   );
 }

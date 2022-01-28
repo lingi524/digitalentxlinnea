@@ -6,15 +6,47 @@
   box-shadow: 10px 12px 0px #000000;
   border-radius: 10px;
   padding: 20px;
+  position: relative;
 }
 
 .Candidates {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+
+.CandidateInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.removeCandidate {
+  background: url("../../img/X.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: -20px;
+  right: -10px;
 }
 
 .NameAge {
   display: inline-flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.Age {
+  color: black;
+  font-family: ivypresto-display, serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 1.5625rem;
+  padding-left: 10px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 999px) {

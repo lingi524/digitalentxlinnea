@@ -8,8 +8,8 @@ function NavBar({candidates, setCandidates}) {
 
     return (
         <div className="NavBarBackground">
-            <div className="container NavBarContainer">
-                <p>Rekrytering</p>
+            <div className="Container NavBarContainer">
+                <p className="Logo">Rekryteringshjälpen</p>
                 <div className="NavButtonsContainer">
                     {/* <Search /> */}
                     <AddNewButton candidates={candidates} setCandidates={setCandidates}/>

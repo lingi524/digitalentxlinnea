@@ -18,6 +18,11 @@
   width: 50%;
 }
 
+.Logo {
+  font-weight: 200;
+  font-size: 1.875rem;
+}
+
 .popupBox {
   position: fixed;
   background: #00000050;
@@ -25,6 +30,7 @@
   height: 100vh;
   top: 0;
   left: 0;
+  z-index: 10000;
 }
 
 .box {
@@ -66,24 +72,35 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  background: none;
-  color: inherit;
-  border: none;
-  cursor: pointer;
 }
 
 .AddNew::before {
   content: "";
+  text-align: center;
   display: block;
-  background: url("https://picsum.photos/200") no-repeat;
+  background: url("../../img/add.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
   width: 40px;
   height: 40px;
   border-radius: 50%;
   margin-right: 10px;
 }
 
-.hidden {
-  display: none;
+.CloseForm {
+  background: url("../../img/X.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+label {
+  color: black;
+  font-family: ivypresto-display, serif;
+  font-weight: 100;
+  font-style: italic;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 999px) {
