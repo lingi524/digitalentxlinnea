@@ -1,3 +1,14 @@
+.Title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title img {
+  margin-top: 20px;
+}
+
 .CandidateCard {
   width: 70%;
   margin: 5rem 1rem 0 1rem;
@@ -47,6 +58,24 @@
   font-style: italic;
   font-size: 1.5625rem;
   padding-left: 10px;
+}
+
+.MailAdressProcess > * {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.MailAdressProcess > *::before {
+  content: "";
+  text-align: center;
+  display: inline-block;
+  background: url("../../img/star-black.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 999px) {
