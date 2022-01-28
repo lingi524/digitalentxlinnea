@@ -44,7 +44,7 @@ function Form({toggle, setCandidates, candidates}) {
                         <option value="Erbjudande">Erbjudande</option>
                         <option value="Avslutad">Avslutad</option>
                     </select>
-                    <input type="submit" className="submitButton" id="submitButton"></input>
+                    <input type="submit" className="submitButton" id="submitButton" value="Lägg till kandidat"></input>
                 </div>
             </form>
         </div>
