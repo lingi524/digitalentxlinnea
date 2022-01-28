@@ -1,4 +1,5 @@
 <h1>Hej Digitalent!</h1> <br>
+https://digitalentxlinnea.netlify.app/ <br>
 Rekryteringshjälpen är en smidig hemsida för den rekryterare som snabbt vill få en överblick över de kandidater som är i ropet just nu.
 
 <h2>📝 How-to</h2>
