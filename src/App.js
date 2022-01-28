@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import useLocalStorage from './Hooks/useLocalStorage';
 import './App.css';
 import Candidates from './Components/MainContent/Candidates';
@@ -26,13 +26,12 @@ function App() {
   }
 ]);
 
-
-  // const [inputName, setInputName] = useState("");
+const [searchTerm, setSearchTerm] = useState(''); 
 
   return (
     <div className="App">
-      <NavBar candidates={candidates} setCandidates={setCandidates}/>
-      <Candidates candidates={candidates} setCandidates={setCandidates}/>
+      <NavBar candidates={candidates} setCandidates={setCandidates} searchTerm={searchTerm} setSearchTerm={setSearchTerm}/>
+      <Candidates candidates={candidates} setCandidates={setCandidates} setSearchTerm={setSearchTerm}/>
       <Footer />
     </div>
   );

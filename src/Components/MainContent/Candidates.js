@@ -3,7 +3,16 @@ import CandidateCard from "./CandidateCard";
 import './Candidates.css';
 import image from '../../img/star-orange.svg';
 
-function Candidates({candidates, setCandidates}) {
+function Candidates({candidates, setCandidates, searchTerm, setSearchTerm}) {
+
+
+    // const candidatesToShow = candidates.filter((value) => {
+    //     if (searchTerm == '') {
+    //         console.log('tom');
+    //     } else if (value.includes('hej')) {
+    //         console.log('hej');
+    //     }
+    // })
 
     return (
         <div className="MainReadContent">
@@ -14,7 +23,7 @@ function Candidates({candidates, setCandidates}) {
             <div className="Candidates container">
                 {candidates.map((candidate)=> (
                     <CandidateCard key={candidate.email}
-                    candidate={candidate} candidates={candidates} setCandidates={setCandidates}/>
+                    candidate={candidate} candidates={candidates} setCandidates={setCandidates} setCandidates={setCandidates} setSearchTerm={setSearchTerm}/>
                 ))}
             </div>
 

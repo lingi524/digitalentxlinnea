@@ -23,7 +23,7 @@ function CandidateCard(props) {
                     <p className="Age">{props.candidate.age} år</p> 
                 </div>
                 
-                <div class="MailAdressProcess">
+                <div className="MailAdressProcess">
                     <a href={"mailto:" + props.candidate.email}>{props.candidate.email}</a>
                     <p>{props.candidate.adress}</p>
                     <p>{props.candidate.process}</p>

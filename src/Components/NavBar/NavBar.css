@@ -89,6 +89,35 @@
   margin-right: 10px;
 }
 
+.Search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.AddNew {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.AddNew::before {
+  content: "";
+  text-align: center;
+  display: block;
+  background: url("../../img/add.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
 .CloseForm {
   background: url("../../img/X.svg");
   background-repeat: no-repeat;
@@ -119,6 +148,25 @@ label {
     justify-content: flex-end;
     margin-top: 0;
   }
+
+  .Search {
+    justify-content: flex-end;
+    margin-top: 0;
+    margin-right: 20px;
+  }
+
+  .Search::before {
+    content: "";
+    text-align: center;
+    display: block;
+    background: url("../../img/search.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -148,5 +196,24 @@ label {
   .AddNew {
     justify-content: flex-end;
     margin-top: 0;
+  }
+
+  .Search {
+    justify-content: flex-end;
+    margin-top: 0;
+    margin-right: 20px;
+  }
+
+  .Search::before {
+    content: "";
+    text-align: center;
+    display: block;
+    background: url("../../img/search.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
   }
 }
